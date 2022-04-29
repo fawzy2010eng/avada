@@ -1,0 +1,528 @@
+.navbar .collapse {
+    margin-left: 22rem;
+}
+
+.navbar .dropdown :hover~.dropdown-menu {
+    display: flex;
+}
+
+.navbar .dropdown .dropdown-menu {
+    box-shadow: 0px 5px 2px 3px #e4e4e4;
+    border: none;
+}
+
+.navbar .nav-item :hover {
+    background-color: rgb(85 80 80 / 20%);
+    border-radius: 7px;
+}
+
+.navbar button:last-of-type {
+    width: 10rem;
+    height: 3rem;
+}
+
+
+
+
+
+
+.main .left h2 {
+    font-size: 3.7rem;
+}
+
+.main .anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes typing {
+    0% {
+        content: "D|";
+    }
+
+    1% {
+        content: "D |";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "De |";
+    }
+
+    4% {
+        content: "Des|";
+    }
+
+    5% {
+        content: "Des |";
+    }
+
+    6% {
+        content: "Desi|";
+    }
+
+    7% {
+        content: "Desi |";
+    }
+
+    8% {
+        content: "Desig|";
+    }
+
+    9% {
+        content: "Desig |";
+    }
+
+    10% {
+        content: "Design|";
+    }
+
+    11% {
+        content: "Design |";
+    }
+
+    13% {
+        content: "Designe|";
+    }
+
+    14% {
+        content: "Designe |";
+    }
+
+    15% {
+        content: "Designer|";
+    }
+
+    16% {
+        content: "Designer |";
+    }
+
+    17% {
+        content: "Designer|";
+    }
+
+    18% {
+        content: "Designe |";
+    }
+
+    19% {
+        content: "Designe|";
+    }
+
+    20% {
+        content: "Design |";
+    }
+
+    21% {
+        content: "Design|";
+    }
+
+    22% {
+        content: "Desig |";
+    }
+
+    23% {
+        content: "Desig|";
+    }
+
+    24% {
+        content: "Desi |";
+    }
+
+    25% {
+        content: "Desi|";
+    }
+
+    25% {
+        content: "Des |";
+    }
+
+    26% {
+        content: "Des|";
+    }
+
+    27% {
+        content: "De |";
+    }
+
+    28% {
+        content: "De|";
+    }
+
+    29% {
+        content: "D |";
+    }
+
+    30% {
+        content: "D|";
+    }
+
+    31% {
+        content: "|";
+    }
+
+    32% {
+        content: "D|";
+    }
+
+    33% {
+        content: "D |";
+    }
+
+    34% {
+        content: "De|";
+    }
+
+    35% {
+        content: "De |";
+    }
+
+    36% {
+        content: "Dev|";
+    }
+
+    37% {
+        content: "Dev |";
+    }
+
+    38% {
+        content: "Deve|";
+    }
+
+    39% {
+        content: "Deve |";
+    }
+
+    40% {
+        content: "Devel|";
+    }
+
+    41% {
+        content: "Devel |";
+    }
+
+    42% {
+        content: "Develo|";
+    }
+
+    43% {
+        content: "Develo |";
+    }
+
+    44% {
+        content: "Develop|";
+    }
+
+    45% {
+        content: "Develop |";
+    }
+
+    46% {
+        content: "Develope|";
+    }
+
+    47% {
+        content: "Develope |";
+    }
+
+    48% {
+        content: "Developer|";
+    }
+
+    49% {
+        content: "Developer |";
+    }
+
+    50% {
+        content: "Developer|";
+    }
+
+    51% {
+        content: "Develope |";
+    }
+
+    52% {
+        content: "Develope|";
+    }
+
+    53% {
+        content: "Develop |";
+    }
+
+    54% {
+        content: "Develop|";
+    }
+
+    55% {
+        content: "Develo |";
+    }
+
+    56% {
+        content: "Develo|";
+    }
+
+    57% {
+        content: "Devel |";
+    }
+
+    58% {
+        content: "Devel|";
+    }
+
+    59% {
+        content: "Deve |";
+    }
+
+    60% {
+        content: "Deve|";
+    }
+
+    61% {
+        content: "Dev |";
+    }
+
+    62% {
+        content: "Dev|";
+    }
+
+    63% {
+        content: "De |";
+    }
+
+    64% {
+        content: "De|";
+    }
+
+    65% {
+        content: "D |";
+    }
+
+    66% {
+        content: "D|";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: "F|";
+    }
+
+    69% {
+        content: "F |";
+    }
+
+    70% {
+        content: "Fr|";
+    }
+
+    71% {
+        content: "Fr |";
+    }
+
+    72% {
+        content: "Fre|";
+    }
+
+    73% {
+        content: "Fre |";
+    }
+
+    74% {
+        content: "Free|";
+    }
+
+    75% {
+        content: "Free |";
+    }
+
+    76% {
+        content: "Freel|";
+    }
+
+    77% {
+        content: "Freel |";
+    }
+
+    78% {
+        content: "Freela|";
+    }
+
+    79% {
+        content: "Freela |";
+    }
+
+    80% {
+        content: "Freelan|";
+    }
+
+    81% {
+        content: "Freelan |";
+    }
+
+    82% {
+        content: "Freelanc|";
+    }
+
+    83% {
+        content: "Freelanc |";
+    }
+
+    84% {
+        content: "Freelance|";
+    }
+
+    85% {
+        content: "Freelance |";
+    }
+
+    86% {
+        content: "Freelance|";
+    }
+
+    87% {
+        content: "Freelanc |";
+    }
+
+    88% {
+        content: "Freelanc|";
+    }
+
+    89% {
+        content: "Freelan |";
+    }
+
+    90% {
+        content: "Freelan|";
+    }
+
+    91% {
+        content: "Freela |";
+    }
+
+    92% {
+        content: "Freela|";
+    }
+
+    93% {
+        content: "Freel |";
+    }
+
+    94% {
+        content: "Freel|";
+    }
+
+    95% {
+        content: "Free|";
+    }
+
+    96% {
+        content: "Fre|";
+    }
+
+    97% {
+        content: "Fr |";
+    }
+
+    98% {
+        content: "F|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+
+    /* Designer|
+Developer|
+Freelancer| */
+
+}
+
+
+.main .left p {
+    /* width: ; */
+}
+
+
+.offers img {
+    height: 45rem;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.offers img:hover {
+    opacity: 1;
+}
+
+
+
+.design img {
+    /* height: 22rem; */
+    background-size: cover;
+}
+
+
+.trust .card {
+    height: 17rem;
+    /* background-color: grey; */
+}
+
+.trust .card .card-body {
+    /* height: 12rem; */
+    /* background-color: green; */
+}
+
+
+
+.freq {
+    padding-bottom: 6rem;
+}
+
+
+.freq .accordion i {
+    color: green;
+    margin-right: 2rem;
+}
+
+.freq .accordion .accordion-item h2 {
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+
+
+
+.footer {
+    margin-top: 22rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footer .social {
+    background-color: #404040;
+}
+
+.footer .row:first-child {
+    background-color: #B7F598;
+    padding: 5rem;
+    margin-top: -27rem;
+
+}
